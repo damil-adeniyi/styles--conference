@@ -306,6 +306,7 @@ h1, h3, h4, h5, p {
   max-width: 100%;
 }
 
+
 /*
   ========================================
   Primary footer
@@ -386,7 +387,7 @@ h1, h3, h4, h5, p {
   border: 1px solid #dfe2e5;
   border-radius: 5px;
   margin-top: 88px;
-  padding: 22px 0;
+  padding-bottom: 22px;
   text-align: center;
 }
 
@@ -394,3 +395,27 @@ h1, h3, h4, h5, p {
   margin-bottom: 44px;
 }
 
+.speaker-info img{
+  border-radius: 50%;
+  height: 130px;
+  margin: -66px 0 22px 0;
+  vertical-align: top;
+}
+
+/* 
+  ===========================================
+  Venue
+  ===========================================
+*/
+
+.venue-theatre{
+  margin-bottom: 66px;
+}
+
+.venue-hotel{
+  margin-bottom: 22px;
+}
+
+.venue-map{
+  height: 264px;
+}
